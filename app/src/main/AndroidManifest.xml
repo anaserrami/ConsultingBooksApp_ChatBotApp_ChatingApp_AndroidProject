@@ -25,6 +25,7 @@
         <activity android:name=".booksConsultingApp.activities.BookDetailActivity"/>
         <activity android:name="com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.MainActivityBooksConsulting" />
         <activity android:name="com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.MainActivityChatBot" />
+        <!-- <activity android:name="com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatingApp.MainActivityChatingApp" /> -->
     </application>
 
 </manifest>
