@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ConsultingBooksApp_ChatBotApp_ChatingApp_AndroidProject</string>
+
+    <string name="button_search">Search</string>
+    <string name="button_share">Share</string>
+
+    <string name="msg_from_user">Msg from user</string>
+    <string name="msg_from_bot">Msg from bot</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="send">Send</string>
+
 </resources>
