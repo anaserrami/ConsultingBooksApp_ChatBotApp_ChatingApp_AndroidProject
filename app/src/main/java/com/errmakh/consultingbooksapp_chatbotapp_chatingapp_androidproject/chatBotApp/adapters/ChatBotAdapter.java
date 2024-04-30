@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.R;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.R;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.models.MessageModel;
 import java.util.List;
 

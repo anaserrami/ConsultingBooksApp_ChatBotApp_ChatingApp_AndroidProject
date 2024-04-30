@@ -7,6 +7,7 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.R;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.adapters.ChatBotAdapter;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.apis.BrainShopApi;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.models.BrainShopResponse;
@@ -30,7 +31,7 @@ public class MainActivityChatBot extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_chatbot);
 
         editTextUser = findViewById(R.id.edit_text);
         buttonSend = findViewById(R.id.send_button);

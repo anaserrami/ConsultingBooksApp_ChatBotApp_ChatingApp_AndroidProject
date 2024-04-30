@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.squareup.picasso.Picasso;
 import java.util.List;
-import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.R;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.R;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.models.Book;
 
 public class BookAdapter extends ArrayAdapter<Book> {

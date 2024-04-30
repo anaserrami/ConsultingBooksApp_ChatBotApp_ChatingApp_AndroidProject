@@ -9,4 +9,8 @@
     <string name="enter_your_message">Enter your message</string>
     <string name="send">Send</string>
 
+    <string name="books_consulting_app">Books Consulting App</string>
+    <string name="chatbot_app">Chatbot App</string>
+    <string name="chating_app">Chating App</string>
+
 </resources>

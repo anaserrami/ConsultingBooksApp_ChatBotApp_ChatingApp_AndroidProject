@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.R;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.util.ArrayList;
@@ -17,7 +18,6 @@ import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.books
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.models.Book;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.models.GoogleBooksResponse;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.apis.GoogleBooksApi;
-import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.R;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -32,7 +32,7 @@ public class MainActivityBooksConsulting extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_books_consulting);
 
         books = new ArrayList<>();
         BookAdapter bookAdapter = new BookAdapter(this, R.layout.list_book_item, books);

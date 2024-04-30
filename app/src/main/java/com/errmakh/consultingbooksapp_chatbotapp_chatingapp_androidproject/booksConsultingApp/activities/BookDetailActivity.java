@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import com.squareup.picasso.Picasso;
-import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.R;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.R;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.models.Book;
 
 public class BookDetailActivity extends AppCompatActivity {
