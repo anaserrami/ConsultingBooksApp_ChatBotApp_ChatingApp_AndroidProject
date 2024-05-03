@@ -7,6 +7,10 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.booksConsultingApp.MainActivityBooksConsulting;
 import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.MainActivityChatBot;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatingApp.LoginActivity;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatingApp.MainActivityChatingApp;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatingApp.UserListActivity;
+import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatingApp.utils.FirebaseUtil;
 //import com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject.chatBotApp.MainActivityChatingApp;
 
 
@@ -35,14 +39,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // For chattingApp
-        /*
+
         Button chatingButton = findViewById(R.id.chating_button);
-        chatbotButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivityChatingApp.class);
-                startActivity(intent);
+        chatingButton.setOnClickListener(v -> {
+            if(FirebaseUtil.isLoggedIn()){
+                startActivity(new Intent(MainActivity.this, UserListActivity.class));
+
+            }else{
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
-        });*/
+
+        });
     }
 }

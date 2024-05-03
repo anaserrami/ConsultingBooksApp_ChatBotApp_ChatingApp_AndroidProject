@@ -23,6 +23,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivityChatBot extends AppCompatActivity {
+
     private List<MessageModel> messages = new ArrayList<>();
     private EditText editTextUser;
     private ImageButton buttonSend;
