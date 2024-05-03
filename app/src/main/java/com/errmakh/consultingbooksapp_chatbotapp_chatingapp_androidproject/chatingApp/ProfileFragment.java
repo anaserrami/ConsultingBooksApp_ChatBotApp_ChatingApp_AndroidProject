@@ -164,7 +164,12 @@ public class ProfileFragment extends Fragment {
         FirebaseUtil.currentUserDetails().get().addOnCompleteListener(task -> {
             setInProgress(false);
             currentUserModel = task.getResult().toObject(UserModel.class);
-            usernameInput.setText(currentUserModel.getUsername());
+            if(currentUserModel!=null){
+                usernameInput.setText(currentUserModel.getUsername());
+            }else {
+                usernameInput.setText("set Username");
+
+            }
             phoneInput.setText(currentUserModel.getPhone());
         });
     }
